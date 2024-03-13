@@ -1,6 +1,5 @@
-import {RecipeAuthor} from '/Author.jsx'
+import RecipeAuthor from './Author.jsx'
 import styles from './Description.module.css';
-
 
 function RecipeDescription() {
 
