@@ -1,6 +1,7 @@
 import styles from './Ingredients.module.css';
 
-const RecipeIngredients = () => {
+function RecipeIngredients() {
+    const ingredients = ["penne", "pesto", "parmesan", "roasted red peppers", "italian chicken sausage"];
 
     return (
         <div>
@@ -14,4 +15,4 @@ const RecipeIngredients = () => {
             </ul>
         </div>);
 }
-export default  RecipeIngredients;
+export default RecipeIngredients;

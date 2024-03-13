@@ -1,15 +1,14 @@
-import React from 'react';
-import {RecipeAuthor} from '/Author'
+import {RecipeAuthor} from '/Author.jsx'
 import styles from './Description.module.css';
 
 
-const RecipeDescription = () => {
+function RecipeDescription() {
 
    return (
        <div>
            <div>
-               <h1>Recipe Title</h1>
-               <p>Short recipe description</p>
+               <h1>HUMMUS</h1>
+               <p>FIVE INGREDIENT HUMMUS</p>
            </div>
 
            <RecipeAuthor />
