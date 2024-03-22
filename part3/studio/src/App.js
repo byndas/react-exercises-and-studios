@@ -1,7 +1,7 @@
 import './App.css';
 import BoardAssignment from './components/BoardAssignment';
 import StatusChange from './components/StatusChange';
-import RecipeDisplay from './components/Recipe'; 
+import RecipeDisplay from './components/Recipe';
 
 function App() {
   return (
